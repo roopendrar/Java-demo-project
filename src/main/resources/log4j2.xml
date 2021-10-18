@@ -1,0 +1,6 @@
+<Configuration>
+    <Loggers>
+<!--     debug / error / info   -->
+        <Root level="error" />
+    </Loggers>
+</Configuration>

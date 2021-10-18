@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 11 12:49:52 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>73 seconds (73489 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.allegis.tests.TestCase1.login()'><b>login</b><br>Test class: com.allegis.tests.TestCase1<br>Test method: Logging into the account<br/>
+<a href="#Output-1013620810" onClick='toggleBox("Output-1013620810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1013620810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1013620810">
+email added successfully<br/>
+password added successfully<br/>
+Logged into the account successfully<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.allegis.tests.TestCase1@402bba4f</td></tr>
+<tr>
+<td title='com.allegis.tests.TestCase1.productcomparision()'><b>productcomparision</b><br>Test class: com.allegis.tests.TestCase1<br>Test method: Comparison of Apple cinema30 and Samsung monitor<br/>
+<a href="#Output-1019714562" onClick='toggleBox("Output-1019714562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1019714562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1019714562">
+Add Apple cinema 30 and samsung monitor to the  comparelist<br/>
+Logged into the account successfully<br/>
+The currency changed to pounds<br/>
+Apple cinema 30 added successfully to the compare list<br/>
+samsung monitor added successfully to the compare list<br/>
+Apple cinema 30 monitor and samsung monitor compared successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.allegis.tests.TestCase1@402bba4f</td></tr>
+<tr>
+<td title='com.allegis.tests.TestCase1.confirmorder()'><b>confirmorder</b><br>Test class: com.allegis.tests.TestCase1<br>Test method: search a new Samsung SyncMaster 941BW  and confirm the order and verify the confirm text<br/>
+<a href="#Output-221692355" onClick='toggleBox("Output-221692355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-221692355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-221692355">
+Order a new Samsung SyncMaster 941BW confirm the order and verify the confirm text<br/>
+Logged into the account successfully<br/>
+Your order of Samsung SyncMaster 941BW is confirmed and the text is verified<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.allegis.tests.TestCase1@402bba4f</td></tr>
+<tr>
+<td title='com.allegis.tests.TestCase1.wishlist()'><b>wishlist</b><br>Test class: com.allegis.tests.TestCase1<br>Test method: By changes some filter methods the phone Palm Treo pro should be added to the wishlist<br/>
+<a href="#Output-1041219253" onClick='toggleBox("Output-1041219253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041219253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041219253">
+Add palm treo pro phone to wish list<br/>
+Logged into the account successfully<br/>
+view changed from grid to list<br/>
+cost changed to low-high<br/>
+Palm Treo pro is added successfully to the wishlist and success message is displayed <br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.allegis.tests.TestCase1@402bba4f</td></tr>
+<tr>
+<td title='com.allegis.tests.TestCase1.addtocart()'><b>addtocart</b><br>Test class: com.allegis.tests.TestCase1<br>Test method: Add HP laptop3065 to the shopping cart<br/>
+<a href="#Output-1583020257" onClick='toggleBox("Output-1583020257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583020257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583020257">
+Add HP laptop 3065 to the shopping cart<br/>
+Logged into the account successfully<br/>
+The laptop HP3065 added successfully to the cart<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.allegis.tests.TestCase1@402bba4f</td></tr>
+</table><p>
+</body>
+</html>

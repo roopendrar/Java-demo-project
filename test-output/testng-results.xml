@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[email added successfully]]>
+    </line>
+    <line>
+      <![CDATA[password added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged into the account successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add HP laptop 3065 to the shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Logged into the account successfully]]>
+    </line>
+    <line>
+      <![CDATA[The laptop HP3065 added successfully to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Add palm treo pro phone to wish list]]>
+    </line>
+    <line>
+      <![CDATA[Logged into the account successfully]]>
+    </line>
+    <line>
+      <![CDATA[view changed from grid to list]]>
+    </line>
+    <line>
+      <![CDATA[cost changed to low-high]]>
+    </line>
+    <line>
+      <![CDATA[Palm Treo pro is added successfully to the wishlist and success message is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Add Apple cinema 30 and samsung monitor to the  comparelist]]>
+    </line>
+    <line>
+      <![CDATA[Logged into the account successfully]]>
+    </line>
+    <line>
+      <![CDATA[The currency changed to pounds]]>
+    </line>
+    <line>
+      <![CDATA[Apple cinema 30 added successfully to the compare list]]>
+    </line>
+    <line>
+      <![CDATA[samsung monitor added successfully to the compare list]]>
+    </line>
+    <line>
+      <![CDATA[Apple cinema 30 monitor and samsung monitor compared successfully]]>
+    </line>
+    <line>
+      <![CDATA[Order a new Samsung SyncMaster 941BW confirm the order and verify the confirm text]]>
+    </line>
+    <line>
+      <![CDATA[Logged into the account successfully]]>
+    </line>
+    <line>
+      <![CDATA[Your order of Samsung SyncMaster 941BW is confirmed and the text is verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-10-11T12:49:52 IST" name="Default suite" finished-at="2021-10-11T12:51:05 IST" duration-ms="73489">
+    <groups>
+    </groups>
+    <test started-at="2021-10-11T12:49:52 IST" name="Default test" finished-at="2021-10-11T12:51:05 IST" duration-ms="73489">
+      <class name="com.allegis.tests.TestCase1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:49:52 IST" name="setup" finished-at="2021-10-11T12:49:54 IST" duration-ms="2944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:3, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:49:54 IST" name="login" description="Logging into the account" finished-at="2021-10-11T12:50:02 IST" duration-ms="7291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[email added successfully]]>
+            </line>
+            <line>
+              <![CDATA[password added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged into the account successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:02 IST" name="close" finished-at="2021-10-11T12:50:02 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:02 IST" name="setup" finished-at="2021-10-11T12:50:05 IST" duration-ms="3389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addtocart()[pri:5, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:05 IST" name="addtocart" description="Add HP laptop3065 to the shopping cart" finished-at="2021-10-11T12:50:21 IST" duration-ms="15667" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add HP laptop 3065 to the shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Logged into the account successfully]]>
+            </line>
+            <line>
+              <![CDATA[The laptop HP3065 added successfully to the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:21 IST" name="close" finished-at="2021-10-11T12:50:21 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:21 IST" name="setup" finished-at="2021-10-11T12:50:25 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishlist()[pri:6, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:25 IST" name="wishlist" description="By changes some filter methods the phone Palm Treo pro should be added to the wishlist" finished-at="2021-10-11T12:50:34 IST" duration-ms="9135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add palm treo pro phone to wish list]]>
+            </line>
+            <line>
+              <![CDATA[Logged into the account successfully]]>
+            </line>
+            <line>
+              <![CDATA[view changed from grid to list]]>
+            </line>
+            <line>
+              <![CDATA[cost changed to low-high]]>
+            </line>
+            <line>
+              <![CDATA[Palm Treo pro is added successfully to the wishlist and success message is displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:34 IST" name="close" finished-at="2021-10-11T12:50:34 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:34 IST" name="setup" finished-at="2021-10-11T12:50:38 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productcomparision()[pri:7, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:38 IST" name="productcomparision" description="Comparison of Apple cinema30 and Samsung monitor" finished-at="2021-10-11T12:50:50 IST" duration-ms="12115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add Apple cinema 30 and samsung monitor to the  comparelist]]>
+            </line>
+            <line>
+              <![CDATA[Logged into the account successfully]]>
+            </line>
+            <line>
+              <![CDATA[The currency changed to pounds]]>
+            </line>
+            <line>
+              <![CDATA[Apple cinema 30 added successfully to the compare list]]>
+            </line>
+            <line>
+              <![CDATA[samsung monitor added successfully to the compare list]]>
+            </line>
+            <line>
+              <![CDATA[Apple cinema 30 monitor and samsung monitor compared successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productcomparision -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:50 IST" name="close" finished-at="2021-10-11T12:50:50 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:50 IST" name="setup" finished-at="2021-10-11T12:50:53 IST" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="confirmorder()[pri:8, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:50:53 IST" name="confirmorder" description="search a new Samsung SyncMaster 941BW  and confirm the order and verify the confirm text" finished-at="2021-10-11T12:51:05 IST" duration-ms="11575" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Order a new Samsung SyncMaster 941BW confirm the order and verify the confirm text]]>
+            </line>
+            <line>
+              <![CDATA[Logged into the account successfully]]>
+            </line>
+            <line>
+              <![CDATA[Your order of Samsung SyncMaster 941BW is confirmed and the text is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmorder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.allegis.tests.TestCase1@402bba4f]" started-at="2021-10-11T12:51:05 IST" name="close" finished-at="2021-10-11T12:51:05 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.allegis.tests.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
