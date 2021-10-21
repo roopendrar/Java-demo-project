@@ -28,11 +28,12 @@ public class GridClass {
 			ChromeOptions options=new ChromeOptions();
 			options.merge(dcap);
 			driver=new RemoteWebDriver(new URL("http://192.168.1.100:4444/wd/hub"),options);
+			String projectpath = System.getProperty("user.dir");
 			Properties property = new Properties();
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\acer\\eclipse-workspace\\allegisqa-allegis-automation-SeleniumTask\\src\\main\\resources\\Testcase1.properties");
+					projectpath+"/src/main/resources/Testcase1.properties");
 			property.load(fis);
-			System.setProperty("webdriver.chrome.driver", property.getProperty("Driver"));
+			System.setProperty("webdriver.chrome.driver", (projectpath+"/src/main/resources/drivers/chromedriver(94).exe"));
 			String yourstore = property.getProperty("yourstore");
 			driver.get(yourstore);
 			driver.manage().window().maximize();

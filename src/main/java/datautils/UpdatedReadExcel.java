@@ -26,9 +26,9 @@ public class UpdatedReadExcel {
 	public static List<Map<String, String>> readstringdata() throws IOException {
 		List<Map<String, String>> data = null;
 		Map<String, String> testdata = new HashMap<String, String>();
+		String projectpath = System.getProperty("user.dir");
 		try {
-			fis = new FileInputStream(new File(
-					"C:\\Users\\ror\\eclipse-workspace\\allegisqa-allegis-automation-SeleniumTask\\src\\main\\resources\\data\\YourShopdatasheet.xlsx"));
+			fis = new FileInputStream(new File(projectpath+"/src/main/resources/data/YourShopdatasheet.xlsx"));
 			workbook = new XSSFWorkbook(fis);
 			sheet = workbook.getSheetAt(0);
 			int lastcolnum = sheet.getRow(0).getLastCellNum();

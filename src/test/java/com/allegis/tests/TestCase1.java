@@ -348,7 +348,7 @@ public class TestCase1 extends TestBase {
 
 	
 	//unchanged
-	@Test(priority = 5, enabled = true, description = "Add HP laptop3065 to the shopping cart")
+	@Test(priority = 5, enabled = false, description = "Add HP laptop3065 to the shopping cart")
 	public void addtocart() throws IOException {
 		
 		//creating the objects for the class required for the testcase method.
@@ -412,7 +412,7 @@ public class TestCase1 extends TestBase {
 
 	
 	//action classes
-	@Test(priority = 6, enabled = true, description = "By changes some filter methods the phone Palm Treo pro should be added to the wishlist")
+	@Test(priority = 6, enabled = false, description = "By changes some filter methods the phone Palm Treo pro should be added to the wishlist")
 	public void wishlist() throws IOException {
 		
 		//creating the objects for the class required for the testcase method.
@@ -483,7 +483,7 @@ public class TestCase1 extends TestBase {
 
 	
 	//action class and java csript executor
-	@Test(priority = 7, enabled = true, description = "Comparison of Apple cinema30 and Samsung monitor")
+	@Test(priority = 7, enabled = false, description = "Comparison of Apple cinema30 and Samsung monitor")
 	public void productcomparision() throws IOException {
 		
 		//creating the objects for the class required for the testcase method.
@@ -584,7 +584,7 @@ public class TestCase1 extends TestBase {
 	
 	
 	//action class and js executor
-	@Test(priority = 8, enabled = true, description = "search a new Samsung SyncMaster 941BW  and confirm the order and verify the confirm text")
+	@Test(priority = 8, enabled = false, description = "search a new Samsung SyncMaster 941BW  and confirm the order and verify the confirm text")
 	public void confirmorder() throws IOException {
 		
 		//creating the objects for the class required for the testcase method.

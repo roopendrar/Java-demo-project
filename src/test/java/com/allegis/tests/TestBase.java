@@ -17,11 +17,11 @@ public class TestBase {
 
 	@BeforeMethod()
 	public void setup() throws IOException {
+		String projectpath = System.getProperty("user.dir");
 		Properties property = new Properties();
-		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\ror\\eclipse-workspace\\allegisqa-allegis-automation-SeleniumTask\\src\\main\\resources\\Testcase1.properties");
+		FileInputStream fis = new FileInputStream(projectpath+"/src/main/resources/Testcase1.properties");
 		property.load(fis);
-		System.setProperty("webdriver.chrome.driver", property.getProperty("Driver"));
+		System.setProperty("webdriver.chrome.driver", (projectpath+"/src/main/resources/drivers/chromedriver(94).exe"));
 		driver = new ChromeDriver();
 		String yourstore = property.getProperty("yourstore");
 		driver.get(yourstore);
